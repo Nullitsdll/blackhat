@@ -1,0 +1,1 @@
+use side buttons to click skull emoji

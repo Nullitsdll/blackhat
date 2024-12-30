@@ -1,0 +1,30 @@
+Installation :
+Vestige is a standalone client, and not a forge or a fabric mod.
+You need to drag the Vestige v3 folder in %appdata%/.minecraft/versions
+If you are on mac, it's in Library/Application Support/minecraft/versions
+Then start the Minecraft launcher and make a new profile.
+The Vestige version should be located right under 1.8 (not 1.8.9, 1.8) or at the very bottom. Modded versions must be enabled.
+
+Then in jvm arguments, add -noverify, otherwise Vestige won't launch.
+
+You will need to add a custom jvm to be able to log into alts in the alt login menu. I recommend using java 8.
+An example path on Windows is C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe, but as you probably have a different version of java,
+enter C:\Program Files\Java in file explorer and find out which version you are using. If you are on windows and using the official Minecraft launcher,
+you will need to delete JavaCheck.jar, located at %localappdata%\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\game
+
+
+Configs :
+They were made in mid-august 2023, if you are using Vestige 3.0 a while after its release.
+To install them, start Vestige at least once and drag the configs in .minecraft/Vestige v3/configs
+
+- Hypixelsafe : a hypixel config that should make you last even if staff is active. Doesn't include any special bypasses. Use autobridge with it, and not scaffold.
+- Hypixel : a more blatant hypixel config with a 5.1 bps scaffold (don't forget to switch autobridge and scaffold binds) and autoblock.
+- Hypixelstrafe : like the hypixel config, but with strafe speed and strafe converter (which blinks offground). Hit reg with it is bad,
+and there is an option to allow hitting offground, but it flags after a while. Was made before hypixel made many new checks silent flags to staff.
+
+For hypixel, there is a strafeless speed but from my testing, it bans fast.
+All three hypixel configs has bow2 fly mode, which works, but silent flags.
+
+- MMC : Killaura, scaffold with tower, tickbase and backtrack works. Avoid using speed in fights.
+You can also use blink and scaffold before a match of bedfight or battle rush.
+- Blocksmc : Killaura and scaffold bypasses, strafe speed will ban after a while for strafe as they have a silent check for it.
