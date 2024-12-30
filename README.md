@@ -17,7 +17,7 @@ Este repositorio es una recopilación de **cheats** y **archivos de bypass** par
 
 ## 🔄 **Contribuciones**
 
-Si tienes algún cheat o bypass que te gustaría compartir, enviame un mensaje a nullx64 y con gusto lo subire
+Si tienes algún cheat o bypass que te gustaría compartir, enviame un mensaje al discord nullx64 y con gusto lo subire
 
 ---
 
